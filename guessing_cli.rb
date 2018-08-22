@@ -1,5 +1,4 @@
 def run_guessing_game
-  while true
   puts "Guess a number between 1 and 6"
   input = gets.chomp
   computer_number = rand(1..6).to_s
@@ -10,7 +9,6 @@ def run_guessing_game
     else
       puts "The computer guessed #{computer_number}."
     end
-  end
 end
 
 def exit_game
