@@ -13,7 +13,3 @@ def run_guessing_game
     end
 end
 end
-
-def exit_game
-  
-end
