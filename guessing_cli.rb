@@ -10,3 +10,7 @@ else
   puts "The computer guessed #{computer_number}."
 end
 end
+
+def exit_game
+  
+  
