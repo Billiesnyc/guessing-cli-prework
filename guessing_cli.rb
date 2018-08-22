@@ -4,5 +4,5 @@ def run_guessing_game
   if input == "exit"
   puts "Goodbye!"
   break
-  elsif input ==
+  elsif input.to_i == 
 end
